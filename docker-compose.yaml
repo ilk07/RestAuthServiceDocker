@@ -1,0 +1,9 @@
+version: '1'
+
+services:
+  restAuthService:
+    image: 'restAuthService'
+    container_name: 'restAuthServiceApp'
+    build: ./
+    ports:
+      - 8080:8080
